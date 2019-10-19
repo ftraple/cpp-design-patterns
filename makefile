@@ -5,7 +5,7 @@ INCLUDE_DIR = Include/
 SOURCE_DIR = Source/
 BUILD_DIR = Build/
 BINARY_DIR = Bin/
-TARGET = $(BINARY_DIR)Hello
+TARGET = $(BINARY_DIR)Test
 
 SOURCE = $(shell find $(SOURCE_DIR) -name "*.cpp")
 OBJECT = $(patsubst $(SOURCE_DIR)%.cpp, $(BUILD_DIR)%.o, $(SOURCE))

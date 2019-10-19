@@ -1,41 +1,80 @@
-# C++ Project Template
+# Design Patterns
 
-This template is used to start any type of project in C++ with gcc compiler.
+A design pattern is just a guide to show how to solve a repeatable problem.
 
-## How To Add a Link
+Depending on the design problem they address, design patterns can be classified in different categories, of which the main categories are:
 
-This is a example of how to add a link.
+* Creational Patterns
+* Structural Patterns
+* Behavioral Patterns
 
-[GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+## Creational Patterns
 
-## How To Show Image 
+These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
 
-This is an example of how to show an image.
+### Singleton
 
-![RGB Image](Resource/Image/RGBImage.jpg)
+The singleton pattern ensures that a class has only one instance and provides a global point of access to that instance.
 
-## How To Add a Video Link
+### Builder
 
-This is an example of how to add a video link.
+### Factory
 
-[![DEMO](https://img.youtube.com/someimage/0.jpg)](https://www.youtube.com/watch?v=45HbI9u2bQw)
+### Abstract Factory
 
-## How To Show Line Commands
+### Prototype
 
-This is an example of how to show line commands in bash.
+### Object Pool
 
-```bash
-make clean
-make
-./Bin/Test
-```
-## How To Show a Block Of Code
 
-This is an example of how to show a block of code.
+## Structural Patterns
 
-```c++
-function main() {
-  std::cout << "This is a message." << std::endl;
-  return EXIT_SUCCESS;
-}
-```
+These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
+
+### Adapter
+
+### Bridge
+
+### Composite
+
+### Decorator
+
+### Facade
+
+### Flyweight
+
+### Private Class Data
+
+### Proxy
+
+
+
+## Behaivioral Patterns
+
+These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
+
+### Chain Of Responsibility
+
+### Command
+
+### Interpreter
+
+### Iterator
+
+### Mediator
+
+### Memento
+
+### Null Object
+
+### Observer
+
+### State
+
+### Strategy
+
+### Template Method
+
+### Visitor
+
+### Model-View-Controller (MVC)
