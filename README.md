@@ -16,6 +16,8 @@ These design patterns are all about class instantiation. This pattern can be fur
 
 The singleton pattern ensures that a class has only one instance and provides a global point of access to that instance.
 
+Use a singleton if: "you need to have one and only one object of a type in system and you need to have global access to it."
+
 ### Builder
 
 ### Factory
