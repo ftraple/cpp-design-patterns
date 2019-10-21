@@ -20,6 +20,13 @@ Use a singleton if: "you need to have one and only one object of a type in syste
 
 ### Builder
 
+Is a pattern used to create objects made from a bunch of other objects.
+
+* Use this pattern when you want to build an object made up from other objects;
+* When you want the creation of these parts to be independent of the main objects;
+* Hide the creation of the parts from the client, so both aren't dependent;
+* The builder knows the specifics and nobody else does;
+
 ### Factory
 
 ### Abstract Factory
