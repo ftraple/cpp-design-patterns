@@ -1,0 +1,7 @@
+/home/fabiano/Project/cpp-design-patterns/build/CMakeFiles/rebuild_cache.dir
+/home/fabiano/Project/cpp-design-patterns/build/CMakeFiles/edit_cache.dir
+/home/fabiano/Project/cpp-design-patterns/build/Patterns/CMakeFiles/rebuild_cache.dir
+/home/fabiano/Project/cpp-design-patterns/build/Patterns/CMakeFiles/edit_cache.dir
+/home/fabiano/Project/cpp-design-patterns/build/Patterns/Singleton/CMakeFiles/rebuild_cache.dir
+/home/fabiano/Project/cpp-design-patterns/build/Patterns/Singleton/CMakeFiles/singleton.dir
+/home/fabiano/Project/cpp-design-patterns/build/Patterns/Singleton/CMakeFiles/edit_cache.dir

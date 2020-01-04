@@ -24,4 +24,4 @@ private:
 
 };
 
-#endif _SINGLETON_H_
+#endif // _SINGLETON_H_
