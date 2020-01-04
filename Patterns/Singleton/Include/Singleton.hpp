@@ -1,5 +1,5 @@
-#ifndef _SINGLETON_H_
-#define _SINGLETON_H_
+#ifndef SINGLETON_H
+#define SINGLETON_H
 
 class Singleton {
 
@@ -12,16 +12,21 @@ public:
         return instance;
     }
 
+    // Declare these two methods to tell to the compiler to avoid creating copies of this object.
+    Singleton(Singleton const&) = delete;      // Do not implement.
+    void operator=(Singleton const&) = delete; // Do not implement.
+
+    void log(const std::string& text) const {
+        std::cout << text << std::endl;
+    }
+
 private:
     // Create a private constructor.
     Singleton() {};
     // Implement the destructor, if needed.
     //~Singleton() {};
 
-    // Declare these two to tell to the compiler to avoid creating copies of this object.
-    Singleton(Singleton const&);      // Do not implement.
-    void operator=(Singleton const&); // Do not implement.
 
 };
 
-#endif // _SINGLETON_H_
+#endif // SINGLETON_H

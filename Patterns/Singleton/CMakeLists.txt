@@ -1,7 +1,7 @@
 
 set(THIS singleton)
 
-set(SOURCE_LIST
+set(SOURCE_LIST 
 	Source/Main.cpp)
 
 set (CMAKE_CXX_STANDARD 17)
@@ -15,8 +15,7 @@ if (CMAKE_COMPILER_IS_GNUCC)
 	endif ()
 endif (CMAKE_COMPILER_IS_GNUCC)
 
-include_directories(Include)
-
 add_executable(${THIS} ${SOURCE_LIST})
+target_include_directories(${THIS} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/Include)
 
 

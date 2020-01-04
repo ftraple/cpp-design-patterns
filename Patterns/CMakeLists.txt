@@ -1,2 +1,5 @@
+option(PATTERN_SINGLETON "Build singleton pattern" ON)
 
-add_subdirectory(Singleton)
+if (PATTERN_SINGLETON)
+    add_subdirectory(Singleton)
+endif()

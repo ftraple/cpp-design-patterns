@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../Patterns/Singleton/Include/Multiton.hpp
+iostream
+-
+map
+-
+memory
+-
+
 ../Patterns/Singleton/Include/Singleton.hpp
 
 /home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Source/Main.cpp
@@ -13,4 +21,6 @@ iostream
 -
 Singleton.hpp
 /home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Source/Singleton.hpp
+Multiton.hpp
+/home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Source/Multiton.hpp
 
