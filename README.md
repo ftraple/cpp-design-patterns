@@ -1,6 +1,6 @@
 # Table Of Content
 
-1. [Creational Patterns](#creationa_patterns)
+1. [Creational Patterns](#creational_patterns)
 
     1. [Builder](#)
     2. [Singleton](#singleton)
@@ -11,7 +11,7 @@
     5. [Prototype](#)
     6. [Object Pool](#)
   
-2. [Structural Patterns](#structural_pattertns)
+2. [Structural Patterns](#structural_patterns)
 
     1. [Adapter](#)
     2. [Bridge](#)
