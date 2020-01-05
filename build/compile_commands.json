@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/fabiano/Project/cpp-design-patterns/build/Patterns/Singleton",
-  "command": "/usr/bin/g++-7   -I/home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Include  -g   -std=gnu++1z -o CMakeFiles/singleton.dir/Source/Main.cpp.o -c /home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Source/Main.cpp",
-  "file": "/home/fabiano/Project/cpp-design-patterns/Patterns/Singleton/Source/Main.cpp"
-}
-]
