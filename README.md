@@ -1,7 +1,11 @@
-# Table Of Content
+# Design Patterns
+
+A design pattern is just a guide to show you how to solve a repeatable problem.
+Depending of the design problem, you can classify the design patterns in three main categories:
+
+## Table Of Content
 
 1. [Creational Patterns](#creational_patterns)
-
     1. [Builder](#)
     2. [Singleton](#singleton)
         1. [Singleton](#singleton) :heavy_check_mark:
@@ -10,10 +14,8 @@
     4. [Abstract Factory](#)
     5. [Prototype](#)
     6. [Object Pool](#)
-  
 2. [Structural Patterns](#structural_patterns)
-
-    1. [Adapter](#)
+    1. [Adapter](#adapter) :heavy_check_mark:
     2. [Bridge](#)
     3. [Composite](#)
     4. [Decorator](#)
@@ -21,9 +23,7 @@
     6. [Flyweight](#)
     7. [Proxy](#)
     8. [Private Class Data](#)
-  
 3. [Behavioral Patterns](#behavioral_patterns)
- 
     1. [Chain Of Responsibility](#)
     2. [Command](#)
     3. [Interpreter](#)
@@ -38,7 +38,7 @@
     12. [Model-View-Controller](#)
     13. [Null Object](#)
 
-# Solid Design Principles
+## Solid Design Principles
 
 * __Single Responsibility Principle__
     * A class should only have one reason to change.
@@ -58,27 +58,25 @@
     * High-evel modules should not depend upon low-level ones; use abstractions.
 
 
-# Design Patterns
-
-A design pattern is just a guide to show you how to solve a repeatable problem.
-Depending of the design problem, you can classify the design patterns in three main categories:
-
-
-# Creational Patterns <a name="creational_patterns"></a>
+## Creational Patterns <a name="creational_patterns"></a>
 
 These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
 
-## Singleton <a name="singleton"></a>
+### Singleton <a name="singleton"></a>
 
 The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system. The term comes from the mathematical concept of a singleton.
 
 Critics consider the singleton to be an anti-pattern in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces global state into an application.
 
-## Multiton <a name="multiton"></a>
+### Multiton <a name="multiton"></a>
 
 The multiton pattern is a design pattern which generalizes the singleton pattern. Whereas the singleton allows only one instance of a class to be created, the multiton pattern allows for the controlled creation of multiple instances, which it manages through the use of a map.
 
-# Structural Patterns <a name="structural_patterns"></a>
+## Structural Patterns <a name="structural_patterns"></a>
 
-# Behavioral Patterns <a name="behavioral_patterns"></a>
+### Adapter <a name="adapter"></a>
+
+ The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+
+## Behavioral Patterns <a name="behavioral_patterns"></a>
 
