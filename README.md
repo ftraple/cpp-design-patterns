@@ -7,11 +7,13 @@ Depending of the design problem, you can classify the design patterns in three m
 
 1. [Creational Patterns](#creational_patterns)
     1. [Builder](#)
-    2. [Singleton](#singleton)
-        1. [Singleton](#singleton) :heavy_check_mark:
-        2. [Multiton](#multiton) :heavy_check_mark:
-    3. [Factory Method](#)
-    4. [Abstract Factory](#)
+    2. [Singleton](#singleton) :heavy_check_mark:
+    3. [Multiton](#multiton) :heavy_check_mark:
+    4. [Factory](#)
+        1. [Factory Method](#factory_method) :heavy_check_mark:
+        2. [Inner Factory](#inner_factory) :heavy_check_mark:
+        3. [Abstract Factory](#abstract_factory) :heavy_check_mark:
+        4. [Functional Factory](#functional_factory) :heavy_check_mark:
     5. [Prototype](#)
     6. [Object Pool](#)
 2. [Structural Patterns](#structural_patterns)
@@ -71,6 +73,16 @@ Critics consider the singleton to be an anti-pattern in that it is frequently us
 ### Multiton <a name="multiton"></a>
 
 The multiton pattern is a design pattern which generalizes the singleton pattern. Whereas the singleton allows only one instance of a class to be created, the multiton pattern allows for the controlled creation of multiple instances, which it manages through the use of a map.
+
+### Factory <a name="factory"></a>
+
+* __Factory Method__ <a name="factory_method"></a>
+
+* __Inner Factory__ <a name="inner_factory"></a>
+
+* __Abstract Factory__ <a name="abstract_factory"></a>
+
+* __Functional Factory__ <a name="functional_factory"></a>
 
 ## Structural Patterns <a name="structural_patterns"></a>
 
