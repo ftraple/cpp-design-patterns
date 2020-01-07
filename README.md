@@ -59,7 +59,7 @@ Depending of the design problem, you can classify the design patterns in three m
     * YAGNI - You Ain't Going to Need It
 
 * __Dependency Inversion Principle__
-    * High-evel modules should not depend upon low-level ones; use abstractions.
+    * High-level modules should not depend upon low-level ones; use abstractions.
 
 
 ## Creational Patterns <a name="creational_patterns"></a>
