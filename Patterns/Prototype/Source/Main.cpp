@@ -18,7 +18,7 @@ int main() {
     std::cout <<  "----------------------------------------\n";
 
     auto james = EmployeeFactory::newOfficeEmployee("James", 123);
-    std::cout << james << std::endl;
+    std::cout << *james << std::endl;
 
     std::cout << '\n';
     return EXIT_SUCCESS;

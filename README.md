@@ -1,12 +1,17 @@
 # Design Patterns
 
 A design pattern is just a guide to show you how to solve a repeatable problem.
-Depending of the design problem, you can classify the design patterns in three main categories:
+Depending of the design problem, you can classify the design patterns in three main categories; **creational**, **structural** and **behavioral** patterns. This is called Gamma Categorization after Erich Gamma, one of the "Gang of Four" book authors.
 
 ## Table Of Content
 
+0. [Introduction](#)
+    1. [Solid Principles](#solid_principles)
 1. [Creational Patterns](#creational_patterns)
-    1. [Builder](#)
+    1. [Builder](#builder_intro)
+        1. [Builder](#builder) :heavy_check_mark:
+        2. [Fluent Builder](#fluent_builder) :heavy_check_mark:
+        3. [Groovy-style Builder](#groovy_style_builder) :heavy_check_mark:
     2. [Singleton](#singleton) :heavy_check_mark:
     3. [Multiton](#multiton) :heavy_check_mark:
     4. [Factory](#factory_intro)
@@ -42,7 +47,7 @@ Depending of the design problem, you can classify the design patterns in three m
     12. [Model-View-Controller](#)
     13. [Null Object](#)
 
-## Solid Design Principles
+## Solid Design Principles <a name="solid_principles"></a>
 
 * __Single Responsibility Principle__
     * A class should only have one reason to change.
@@ -65,6 +70,14 @@ Depending of the design problem, you can classify the design patterns in three m
 ## Creational Patterns <a name="creational_patterns"></a>
 
 These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
+
+### Builder <a name="builder_intro"></a>
+
+* __Builder__ <a name="builder"></a>
+
+* __Fluent Builder__ <a name="fluent_builder"></a>
+
+* __Groovy-style Builder__ <a name="groovy_style_builder"></a>
 
 ### Singleton <a name="singleton"></a>
 
