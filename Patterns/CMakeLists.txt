@@ -1,8 +1,8 @@
 option(BUILDER_PATTERN "Build builder pattern" ON)
-option(SINGLETON_PATTERN "Build singleton pattern" OFF)
-option(ADAPTER_PATTERN "Build adapter pattern" OFF)
-option(FACTORY_PATTERN "Build factory pattern" OFF)
-option(PROTOTYPE_PATTERN "Build prototype pattern" OFF)
+option(SINGLETON_PATTERN "Build singleton pattern" ON)
+option(ADAPTER_PATTERN "Build adapter pattern" ON)
+option(FACTORY_PATTERN "Build factory pattern" ON)
+option(PROTOTYPE_PATTERN "Build prototype pattern" ON)
 
 if (BUILDER_PATTERN)
     add_subdirectory(Builder)
