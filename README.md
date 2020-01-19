@@ -25,7 +25,9 @@ Depending of the design problem, you can classify the design patterns in three m
     6. [Object Pool](#)
 2. [Structural Patterns](#structural_patterns)
     1. [Adapter](#adapter) :heavy_check_mark:
-    2. [Bridge](#)
+    2. [Bridge](#Bridge_intro)
+       1. [Bridge](#bridge)
+       2. [Pimpl Idiom](#pimpl_idiom)
     3. [Composite](#)
     4. [Decorator](#)
     5. [Facade](#)
@@ -108,6 +110,12 @@ The multiton pattern is a design pattern which generalizes the singleton pattern
 ## Structural Patterns <a name="structural_patterns"></a>
 
 ### Adapter <a name="adapter"></a>
+
+### Bridge <a name="bridge_intro"></a>
+
+* __Bridge__ <a name="bridge"></a>
+
+* __Pimpl Idiom__ <a name="pimpl_idiom"></a>
 
  The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
 
