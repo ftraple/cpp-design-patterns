@@ -25,10 +25,11 @@ Depending of the design problem, you can classify the design patterns in three m
     6. [Object Pool](#)
 2. [Structural Patterns](#structural_patterns)
     1. [Adapter](#adapter) :heavy_check_mark:
-    2. [Bridge](#Bridge_intro)
-       1. [Bridge](#bridge)
-       2. [Pimpl Idiom](#pimpl_idiom)
-    3. [Composite](#)
+    2. [Bridge](#bridge_intro)
+       1. [Bridge](#bridge) :heavy_check_mark:
+       2. [Pimpl Idiom](#pimpl_idiom) :heavy_check_mark:
+    3. [Composite](#composite_intro)
+       1. [Geometric Shapes Example](#composite_geometric_shapes) :heavy_check_mark:
     4. [Decorator](#)
     5. [Facade](#)
     6. [Flyweight](#)
@@ -111,13 +112,23 @@ The multiton pattern is a design pattern which generalizes the singleton pattern
 
 ### Adapter <a name="adapter"></a>
 
+The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+
 ### Bridge <a name="bridge_intro"></a>
+
+The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently". The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities into different classes.
 
 * __Bridge__ <a name="bridge"></a>
 
 * __Pimpl Idiom__ <a name="pimpl_idiom"></a>
 
- The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+### Composite <a name="composite_intro"></a>
+
+The composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.
+
+* __Geometric Shapes Example__ <a name="composite_geometric_shapes"></a>
+
+    This example create multiple shapes objects, circle, square and rectangle, and group than into a tree view using groups of objects.
 
 ## Behavioral Patterns <a name="behavioral_patterns"></a>
 
