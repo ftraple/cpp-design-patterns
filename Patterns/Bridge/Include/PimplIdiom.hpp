@@ -9,7 +9,7 @@ class PersonA {
 
     PersonA(const std::string& name);
 
-    // To use a unique_ptr the compiler need to see destructur implemented in the cpp file
+    // To use a unique_ptr the compiler need to see destructor implemented in the cpp file
     ~PersonA();
 
     void greet();

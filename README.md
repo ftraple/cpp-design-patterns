@@ -43,7 +43,7 @@ Depending of the design problem, you can classify the design patterns in three m
     5. [Mediato](#)
     6. [Memento](#)
     7. [Observer](#)
-    8. [State](#)
+    8. [State](#state_intro)  :heavy_check_mark:
     9. [Strategy](#)
     10. [Template Method](#)
     11. [Visitor](#)
@@ -110,6 +110,8 @@ The multiton pattern is a design pattern which generalizes the singleton pattern
 
 ## Structural Patterns <a name="structural_patterns"></a>
 
+In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships among entities. 
+
 ### Adapter <a name="adapter"></a>
 
 The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
@@ -132,3 +134,8 @@ The composite pattern is a partitioning design pattern. The composite pattern de
 
 ## Behavioral Patterns <a name="behavioral_patterns"></a>
 
+In software engineering, behavioral design patterns are design patterns that identify common communication patterns among objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
+
+### State <a name="state_intro"></a>
+
+The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes. This pattern is close to the concept of finite-state machines. The state pattern can be interpreted as a strategy pattern, which is able to switch a strategy through invocations of methods defined in the pattern's interface. 
